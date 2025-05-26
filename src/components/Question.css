@@ -12,9 +12,57 @@
 
 #question p {
     margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
 
 #question button {
     border: 2px solid #fff;
     margin: 0.5rem;
+}
+
+#question {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.player-box {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;     
+  background-color: #3c0e70;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  margin: 1rem auto;
+  width: 250px;            
+  box-shadow: 0 0 10px rgba(132, 53, 222, 0.2);
+  text-align: center;      
+}
+
+.player-box img {
+  width: 125px;
+  height: 125px;
+  border-radius: 10%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+
+.player-box p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.question-counter {
+  font-weight: bold;
+  color: #333;
+  margin-top: 2rem;
+}
+
+.question-title {
+  margin: 1.5rem 0;
+  font-size: 1.6rem;
+  color: #444;
 }
