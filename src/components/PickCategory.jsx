@@ -1,8 +1,6 @@
 import { useContext } from "react";
 import { QuizContext } from "../context/quiz";
 
-import Category from "../img/category.svg";
-
 import "./PickCategory.css";
 
 const PickCategory = () => {
