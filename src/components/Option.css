@@ -14,16 +14,24 @@
 
 #options-container .option p {
     margin-bottom: 0;
+    font-size: 1.5rem;
 }
 
 .correct {
-    background-color: #0bfc03;
+    background-color: #0bfc03; 
+    color: #000;              
     font-weight: bold;
+    border: 2px solid #0aaf00; 
+    opacity: 1;
 }
 
 .wrong {
-    background-color: #3c0e70;
-    opacity: 0.4;
+    background-color: #3c0e70; 
+    opacity: 0.4;              
+    color: #aaa;               
+    cursor: default;           
+    pointer-events: none;     
+    filter: grayscale(70%);    
 }
 
 .hide {

@@ -10,12 +10,22 @@ const PickCategory = () => {
 
   const chooseCategoryAndReorderQuestions = (category) => {
     dispatch({ type: "START_GAME", payload: category });
-
     dispatch({ type: "REORDER_QUESTIONS" });
   };
 
   return (
     <div id="category">
+      <h2 className="greeting">Olá, <strong>{quizState.player.name}</strong>! Pronto para jogar?</h2>
+      
+      {/* Bloco do jogador */}
+      <div className="player-info">
+        <img
+          src={quizState.player.avatar}
+          alt={`Avatar de ${quizState.player.name}`}
+          className="avatar-mini"
+        />
+      </div>
+
       <h2>Escolha uma categoria</h2>
       <p>As perguntas serão referentes a uma das linguagens abaixo:</p>
       <div>
@@ -28,7 +38,6 @@ const PickCategory = () => {
           </button>
         ))}
       </div>
-      <img src={Category} alt="Categorias do Quiz" />
     </div>
   );
 };

@@ -11,7 +11,8 @@
 }
 
 #category p {
-    color: #8435de
+    color: #8435de;
+    font-size: 1.5rem;
 }
 
 #category img {
@@ -21,4 +22,18 @@
 
 #category button {
     margin: 1rem;
+}
+
+.greeting {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.greeting strong {
+  color: #8435de;
+  font-weight: bold;
+  font-size: 1.2em;
 }
