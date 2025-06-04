@@ -1,12 +1,44 @@
-# React + Vite
+# ❓ CodeQuest – Jogo de Perguntas e Respostas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CodeQuest é um jogo interativo de perguntas de múltipla escolha desenvolvido como projeto da disciplina de Testes de Software. O objetivo é oferecer uma experiência divertida e educativa, permitindo que os jogadores testem seus conhecimentos em HTML, CSS e JavaScript, enquanto também exploramos práticas de testes automatizados com Python, Pytest e Selenium.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎮 Funcionalidades
 
-## Expanding the ESLint configuration
+- Escolha de avatar e nome do jogador
+- Seleção da categoria de perguntas (HTML, CSS ou JavaScript)
+- Perguntas de múltipla escolha com feedback imediato
+- Exibição da pontuação final
+- Ranking com a posição do jogador
+- Opção de jogar novamente para melhorar a pontuação
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+### Front-end:
+- React
+- JavaScript (ES6+)
+- CSS Modules
+
+### Testes automatizados:
+- Python
+- Pytest
+- Selenium WebDriver
+
+---
+
+## 💻 O que foi testado?
+
+- Navegação entre as telas do jogo
+- Escolha e exibição correta dos avatares
+- Comportamento de seleção de perguntas por categoria
+- Cálculo e exibição da pontuação e ranking
+- Fluxo de "jogar novamente"
+
+---
+
+
+## 🎯 Objetivo do Projeto
+Este projeto foi criado para aplicar, na prática, conceitos de desenvolvimento de software com foco em qualidade, utilizando testes automatizados e boas práticas de codificação.
